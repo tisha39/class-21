@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navarSection{
+    display: flex;
+    justify-content: spce-between;
+    align-items: center;
+    background-color: #610C9F;
+    color: white;
+    padding: 0 20px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+#bannersection{
+    background-image: url(./burka\ banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bannersection h1{
+    font-size: 38px;
+
+    background-color:rgb(202, 114, 114) ;
+    padding: 10px;
+  
+    box-shadow: 0 0 20px 0 gray;
+
+}
+#Aboutsection{
+    font-size: 30px;
+padding: 20px;
+}
+    #Aboutsection>h1{
+    font-size: 54px;
+    color: black;
+
+}
+#aboutmaindiv{
+    justify-content: space-between;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+#Abouttextdiv>p{
+    font-size: 25px;
+text-align: justify;
+line-height: 32px;
+
+
+}
+#Abouttextdiv>button{
+
+    padding: 10px 50px;
+    font-size: 30px;
+    background-color: rgb(0, 215, 215);
+    color: rgb(5, 1, 1);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgb(116, 85, 85);
+}
+#aboutimgdiv>img{
+height: 50vh;
+border: 5px solid rgb(171, 158, 158);
+box-shadow:0 0 20px 0 ;
+margin: 50px;
+}
+/*shop section started*/
+#shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+.shopsection
+:hover{
+    transition: 4s ease-in-out;
+  background-color: aliceblue;
+}
+.shopsectioncard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 5px groove rgb(205, 46, 46);
+font-size: 25px;
+}
+.cardtextdiv button{
+    padding: 10px 50px;
+    font-size: 30px;
+    background-color: rgb(130, 218, 150);
+    color: rgb(5, 1, 1);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgb(116, 85, 85);
+
+}
+.cardimgdiv>img{
+    width: 560px;
+    height: 570px;
+   
+}
+.cardtextdiv>h3{
+font-weight: 900;
+color: rgb(146, 0, 0);
+font-size: 45px;
+
+}
+
+/*review section started*/
+#reviewsection{
+    padding: 20 px;
+}
+#reviewsection>h1{
+    font-size: 70px;
+    color: #872341;
+}
+#reviewsectionmaindiv{
+    display: flex;
+    gap: 50px;
+}
+.reviewsectioncard{
+    background-color: rgb(77, 174, 174);
+    text-align: center;
+    padding: 30px 10px;
+    color:black;
+}
+.reviewsectioncard>img{
+border-radius: 50%;
+height: 150px;
+}
+.reviewsectioncard>h2{
+    color: rgb(0, 0, 0);
+}
+.stardiv img{
+height: 60px;
+}
